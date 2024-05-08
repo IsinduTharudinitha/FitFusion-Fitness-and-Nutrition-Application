@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 105vh;
+    background: url("home-page-img.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #27374D;
+}
+
+header .navbar {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #27374D;
+    padding: 10px;
+    width: 100%;
+}
+
+.navbar .logo {
+    font-weight: 900;
+    font-size: 30px;
+}
+.navbar .logo span{
+    color: white;
+}
+
+.navbar .menu-links {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar .menu-links li {
+    list-style: none;
+}
+
+.navbar .menu-links li a {
+    font-size: 110%;
+    padding: 10px;
+}
+
+.navbar .menu-links li a:hover {
+    background-color: #fff;
+    border-radius: 20px;
+    color: #27374D;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: aqua;
+
+}
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.hero-section .content {
+    color: #fff;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero-section .content h1 {
+    font-size: 7rem;
+    max-width: 600px;
+}
+
+.hero-section .content p {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 15px;
+    max-width: 600px;
+}
+
+.hero-section .content .button {
+    background: #fff;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 38px;
+    padding: 12px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.hero-section .content .button:hover {
+    background: #27374D;
+    color: #fff;
+}

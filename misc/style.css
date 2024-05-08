@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    
+    background-image: url('../img/login/staff-bkg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-user-select: none;
+    -ms-user-select: none; 
+    user-select: none; 
+    
+  }
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
