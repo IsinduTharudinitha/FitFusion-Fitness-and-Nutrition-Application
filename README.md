@@ -1,2 +1,2 @@
-# Fitness-and-Nutrition-Application
-2nd year group project - MVC architechture..
+# FitFusion
+Fitness-and-Nutrition-Application 2nd year group project - MVC architechture..
